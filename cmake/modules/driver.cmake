@@ -35,9 +35,9 @@ else()
 	# FALCOSECURITY_LIBS_VERSION. In case you want to test against another driver version (or
 	# branch, or commit) just pass the variable - ie., `cmake -DDRIVER_VERSION=dev ..`
 	if(NOT DRIVER_VERSION)
-		set(DRIVER_VERSION "9c2734a64338abff04c4a8274d3770e40c964e21")
+		set(DRIVER_VERSION "04a3b9d05924b9b7a33bdbb45b05ed7aba642ce2")
 		set(DRIVER_CHECKSUM
-			"SHA256=8094cfb04c77b317a4e5a69cf8556dccb54067d1decf9ec920c7cc3fa1ea831a"
+			"SHA256=ad8e4ce0da9b6b5f6efdfbf08465cd2426ca7f424ccdc07eff898d808e068c60"
 		)
 	endif()
 
